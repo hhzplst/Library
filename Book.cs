@@ -9,7 +9,5 @@ namespace Library {
     public List<string> authors;
     public List<string> subjectHeadings;
     public bool Circulating {get; set;}
-
-    
   }
 }
