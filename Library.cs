@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Library {
   public class Library {
+    //ArrayList is not supported after .Net 4.5, using List instead
     public List<Book> books = new List<Book>();
     public void SearchBySubject(string subject) {
       foreach (Book b in books) {
